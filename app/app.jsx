@@ -1,7 +1,9 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+var WeekApp = require('WeekApp');
+
 ReactDOM.render(
-    <h1>Week Agenda App</h1>,
+    <WeekApp/>,
     document.getElementById('root')
 );
